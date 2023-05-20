@@ -1,2 +1,7 @@
 # template_cpp
-Simples template project CPP
+Simple template C++ with:
+- VSCode
+- CLang-format
+- CLang++ (c++20)
+- CMake
+
