@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"C_Cpp.default.compilerPath": "/usr/bin/clang++-14",
+		"C_Cpp.intelliSenseEngineFallback": "enabled",
+		"C_Cpp.configurationWarnings": "enabled",
+		"C_Cpp.intelliSenseEngine": "default",
+		"C_Cpp.clang_format_path": "/usr/bin/clang-format",
+		"editor.minimap.enabled": false,
+		"editor.formatOnSave": true,
+		"cmake.configureOnOpen": true,
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "lldb",
+				"request": "launch",
+				"name": "Debug app",
+				"program": "${workspaceFolder}/bin/simples",
+				"args": [],
+				"cwd": "${workspaceFolder}"
+			}
+		],
+		"compounds": []
+	}
+}
