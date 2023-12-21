@@ -13,6 +13,8 @@
 		"editor.minimap.enabled": false,
 		"editor.formatOnSave": true,
 		"cmake.configureOnOpen": true,
+		"cmake.options.statusBarVisibility": "visible",
+		"cmake.useCMakePresets": "never",
 	},
 	"launch": {
 		"version": "0.2.0",
