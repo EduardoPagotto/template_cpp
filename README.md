@@ -1,5 +1,5 @@
 # Template CPP
-Environment to C++20 development template
+Environment C++20 development template
 
 ## Features
 - VSCode profile: [clang_base](./deps/clang_base.code-profile)
@@ -17,4 +17,31 @@ cmake ../ -DCMAKE_TOOLCHAIN_FILE=./toolchain/clang.cmake
 make
 # or
 # cmake -B build -DCMAKE_TOOLCHAIN_FILE=./toolchain/clang.cmake
+```
+
+## Files tree description:
+```
+template_cpp
+├── .clang-format               ; Clang ident source cfg 
+├── CMakeLists.txt              ; cmake root file 
+├── configured
+│   ├── CMakeLists.txt          ; cmake dynamic cfgs
+│   └── config_params.hpp.in    ; header dynamic data 
+├── deps
+│   └── clang_base.code-profile ; vscode extentions profile
+├── .gitignore                  ; git ignore extentions
+├── include
+├── LICENSE                     ; Licence file
+├── proj.code-workspace         ; vscode project cfgs
+├── README.md                   ; Doc
+├── src
+│   ├── CMakeLists.txt          ; cmake main app
+│   ├── main.cpp                ; source main 
+│   ├── main_mem_raw.cpp        ; source example 1
+│   └── main_smart.cpp          ; source example 2
+├── toolchain
+│   └── clang.cmake             ; cmake toolchain
+└── .vscode
+    ├── c_cpp_properties.json   ; vscode cpp cfg
+    └── cmake-kits.json         ; vscode cmake kit
 ```
