@@ -5,6 +5,9 @@
 		}
 	],
 	"settings": {
+		"C_Cpp.intelliSenseCachePath": "${workspaceFolder}/build/vscode_cache",
+		//"C_Cpp.default.browse.path": [],
+		//"C_Cpp.loggingLevel": "Debug",
 		"C_Cpp.intelliSenseEngineFallback": "enabled",
 		"C_Cpp.configurationWarnings": "enabled",
 		"C_Cpp.intelliSenseEngine": "Tag Parser",
@@ -21,6 +24,9 @@
 		"cmake.configureOnOpen": true,
 		"cmake.options.statusBarVisibility": "visible",
 		"cmake.useCMakePresets": "never",
+		"files.associations": {
+			"iostream": "cpp"
+		},
 	},
 	"launch": {
 		"version": "0.2.0",

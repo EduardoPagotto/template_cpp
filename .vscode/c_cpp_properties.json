@@ -3,13 +3,14 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                //"${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG"
             ],
             "browse": {
                 "path": [
+                    "${workspaceFolder}/build/configured_files/include",
                     "/usr/include",
                     "${workspaceFolder}"
                 ],
