@@ -1,22 +1,20 @@
 # Template CPP
-Template files to setup the environment in c++ development
+Environment to C++20 development template
 
 ## Features
-- VSCode setup<p>
-   import profile: "./deps/clang_base.code-profile"
-- CLang-format
-- toolchain Clang++ (c++20)
-- CMake
-- Font JetBrain <p>
-   ref: https://www.jetbrains.com/pt-br/lp/mono/
+- VSCode profile: [clang_base](./deps/clang_base.code-profile)
+- VSCode Font: [JetBrains](https://www.jetbrains.com/pt-br/lp/mono/)
+- Clang-format: [format](.clang-format)
+- Toolchain cmake:[clang.cmake](./toolchain/clang.cmake)
 
-## To Build:
+## To Build and compile:
 
 Execute commands:
-```bash
+```sh
 mkdir build
 cd build
 cmake ../ -DCMAKE_TOOLCHAIN_FILE=./toolchain/clang.cmake
 make
-#cmake -B build -DCMAKE_TOOLCHAIN_FILE=./toolchain/clang.cmake
+# or
+# cmake -B build -DCMAKE_TOOLCHAIN_FILE=./toolchain/clang.cmake
 ```
