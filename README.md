@@ -31,14 +31,14 @@ template_cpp
 │   └── clang_base.code-profile ; vscode extentions profile
 ├── .gitignore                  ; git ignore extentions
 ├── include
+    ├── UniformBuffer.hpp       ; source header example 1
+    └── WrapperBuffer.hpp       ; source header example 1
 ├── LICENSE                     ; Licence file
 ├── proj.code-workspace         ; vscode project cfgs
 ├── README.md                   ; Doc
 ├── src
 │   ├── CMakeLists.txt          ; cmake main app
-│   ├── main.cpp                ; source main 
-│   ├── main_mem_raw.cpp        ; source example 1
-│   └── main_smart.cpp          ; source example 2
+│   └── main.cpp                ; source main 
 ├── toolchain
 │   └── clang.cmake             ; cmake toolchain
 └── .vscode
