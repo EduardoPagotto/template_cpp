@@ -35,7 +35,7 @@
 				"type": "lldb",
 				"request": "launch",
 				"name": "Debug app",
-				"program": "${workspaceFolder}/bin/simples",
+				"program": "${workspaceFolder}/bin/template_cpp",
 				"args": [],
 				"cwd": "${workspaceFolder}"
 			}
